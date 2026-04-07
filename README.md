@@ -1,26 +1,26 @@
 # WMC-LSTM Project
 
-## 📌 Overview
+## Overview
 This project implements an improved version of Long Short-Term Memory (LSTM) using **Working Memory Connections (WMC)**.
 
 The goal is to enhance sequence learning by allowing the internal cell state to directly influence the gating mechanism, leading to better performance compared to vanilla LSTM.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python  
 - PyTorch  
 - Matplotlib  
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 - **Baseline:** Vanilla LSTM  
 - **Modified:** WMC-LSTM (with cell-to-gate connections)  
 
 ---
 
-## 📊 Experiments
+## Experiments
 
 ### 1. Regression
 - Input: Sequence of numbers  
@@ -32,27 +32,7 @@ The goal is to enhance sequence learning by allowing the internal cell state to 
 
 ---
 
-## 📁 Project Structure
-wmc_lstm_project/
-│
-├── data/
-│   ├── dataset_reg.py
-│   └── dataset_cls.py
-│
-├── models/
-│   ├── lstm.py
-│   └── wmc_lstm.py
-│
-├── train_reg.py
-├── train_cls.py
-├── train_compare.py
-│
-├── requirements.txt
-└── README.md
-
----
-
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Create virtual environment
 python -m venv venv
@@ -70,7 +50,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Run Regression:
 python train_reg.py
@@ -83,7 +63,7 @@ python train_compare.py
 
 ---
 
-## 📈 Outputs
+## Outputs
 - loss.png → Loss comparison graph  
 - accuracy.png → Accuracy comparison graph  
 
