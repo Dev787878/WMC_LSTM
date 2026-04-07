@@ -7,7 +7,7 @@ The goal is to enhance sequence learning by allowing the internal cell state to 
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python  
 - PyTorch  
 - Matplotlib  
@@ -63,7 +63,7 @@ python train_compare.py
 
 ---
 
-## 📈 Outputs
+## Outputs
 - loss.png → Loss comparison graph  
 - accuracy.png → Accuracy comparison graph  
 
