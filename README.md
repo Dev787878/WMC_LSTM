@@ -31,7 +31,6 @@ The goal is to enhance sequence learning by allowing the internal cell state to 
 - Output: 1 if sum > 0, else 0  
 
 ---
-
 ## Setup & Installation
 
 ### 1. Create virtual environment
